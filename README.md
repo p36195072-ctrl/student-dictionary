@@ -8,11 +8,13 @@ A beginner-friendly Python project that demonstrates how to use dictionaries in 
 This project creates a student dictionary containing details like name, age, and goal. It also shows how to access dictionary values using the get() method.
 
  Concepts Used
+ 
 Python Dictionaries
 Key-Value Pairs
 get() Method
 Data Storage in Python
 💻 Code
+
 students = {
     "name": "Tom",
     "age": "18",
@@ -20,5 +22,6 @@ students = {
 }
 
 print(students.get("name"))
+
 ▶️ Output
 Tom
